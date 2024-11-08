@@ -1,0 +1,106 @@
+body {
+    background-color: gainsboro;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+  }
+  .container {
+    text-align: center;
+  }
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    align-items: center;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  /* Style individual squares with consistent sizing and interactive look */
+.sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid #333;
+    font-size: 64px;
+    text-align: center;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  
+  /* Hover effect for squares */
+  .sqr:hover {
+    background-color: #d1d1d1;
+    transform: scale(1.05);
+  }
+
+  #reset {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #reset:hover {
+    background-color: #555;
+  }
+  
+  #reset:active {
+    background-color: #222;
+  }
+  h1 {
+    text-align: center;
+  }
+   h2 {
+    text-align: center;
+  }
+
+  #reset {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #reset:hover {
+    background-color: #555;
+  }
+  
+  #reset:active {
+    background-color: #222;
+  }
+  
